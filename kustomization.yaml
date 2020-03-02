@@ -1,0 +1,5 @@
+resources:
+        - deployment.yaml
+replicas:
+        - name: test-dep
+          count: 5
